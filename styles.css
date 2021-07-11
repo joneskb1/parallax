@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div {
+    display: block;
+}
+
+.one, .two, .three {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.one {
+    background-image: url("img1.jpeg");
+    min-height: 100%;
+}
+
+.two {
+    background-image: url("img2.jpeg");
+    min-height: 100%;
+}
+
+.three {
+    background-image: url("img3.jpeg");
+    min-height: 100%;
+}
+
+
+.h2-p {
+    background: white;
+    line-height: 2;
+    text-align: center;
+    margin: 0;
+} 
+
+h2 {
+    padding: 1rem 0 0 0;
+
+}
+
+ p {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+
+ }
+
+
+.p-text {
+    opacity: .9;
+    width: 25rem;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+    letter-spacing: 8px;
+    line-height: 1.5;
+    height: 5rem;
+    font-weight: bold;
+ }
+
